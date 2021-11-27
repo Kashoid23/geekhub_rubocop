@@ -28,6 +28,16 @@ touch .rubocop.yml
 AllCops:
   NewCops: enable
 ```
+or if you want to add some rules to exceptions
+```
+AllCops:
+  NewCops: enable
+
+Documentation:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+```
 6. Run rubocop
 ```
 rubocop
