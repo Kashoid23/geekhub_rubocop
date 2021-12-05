@@ -1,3 +1,8 @@
+require 'bundler'
+Bundler.setup
+
+require 'html_maker'
+
 class Dog
   attr_accessor :name
 
@@ -13,3 +18,5 @@ class Dog
     'Woof!'
   end
 end
+
+MakeHtml.new.make_html('German Shepherd', true)

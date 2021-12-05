@@ -1,10 +1,21 @@
+GIT
+  remote: https://github.com/LVALL/html_maker.git
+  revision: d06e495147715c90e2a1ddf1ae9de8950ff7c985
+  specs:
+    html_maker (0.1.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
     ast (2.4.2)
+    nokogiri (1.12.5-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.12.5-x86_64-darwin)
+      racc (~> 1.4)
     parallel (1.21.0)
     parser (3.0.3.0)
       ast (~> 2.4.1)
+    racc (1.6.0)
     rainbow (3.0.0)
     regexp_parser (2.1.1)
     rexml (3.2.5)
@@ -26,6 +37,8 @@ PLATFORMS
   universal-darwin-20
 
 DEPENDENCIES
+  html_maker!
+  nokogiri
   rubocop
 
 BUNDLED WITH
