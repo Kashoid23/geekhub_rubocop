@@ -47,6 +47,10 @@ Metrics/ClassLength:
   Enabled: false
 Metrics/MethodLength:
   Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
 ```
 6. Run rubocop
 ```
