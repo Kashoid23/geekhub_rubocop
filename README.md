@@ -37,6 +37,16 @@ Documentation:
   Enabled: false
 Style/FrozenStringLiteralComment:
   Enabled: false
+Layout/LineLength:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
 ```
 6. Run rubocop
 ```
